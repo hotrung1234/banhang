@@ -47,7 +47,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e) {
 
     console.log("Dữ liệu gửi đi:", data); // In dữ liệu để kiểm tra
 
-    fetch("https://script.google.com/macros/s/AKfycbyVe8ojx-77s6ou1kknyCKH9M6bwVd8E7sP2qokKHYdnVbqrTa5mZqo0Dac3vnuBrMaqQ/exec?token=trung1234", {
+    fetch("https://script.google.com/macros/s/AKfycbw9DxRZMpnXQyhw4HNwR4dwNv7CnmqwlHa7OWGZTkFI3gVU5Ud5PEWVLkrkaizlQg5tYA/exec?token=trung1234", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
